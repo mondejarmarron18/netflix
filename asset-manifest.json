@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mondejarmarron18/netflix.git/static/css/main.ce56bcfd.css",
-    "main.js": "/mondejarmarron18/netflix.git/static/js/main.391ea121.js",
-    "static/js/787.440c4889.chunk.js": "/mondejarmarron18/netflix.git/static/js/787.440c4889.chunk.js",
-    "static/media/hero.jpg": "/mondejarmarron18/netflix.git/static/media/hero.5ff0dad2637d83a36662.jpg",
-    "index.html": "/mondejarmarron18/netflix.git/index.html",
-    "main.ce56bcfd.css.map": "/mondejarmarron18/netflix.git/static/css/main.ce56bcfd.css.map",
-    "main.391ea121.js.map": "/mondejarmarron18/netflix.git/static/js/main.391ea121.js.map",
-    "787.440c4889.chunk.js.map": "/mondejarmarron18/netflix.git/static/js/787.440c4889.chunk.js.map"
+    "main.css": "/netflix/static/css/main.ae05e6a1.css",
+    "main.js": "/netflix/static/js/main.72899f69.js",
+    "static/js/787.440c4889.chunk.js": "/netflix/static/js/787.440c4889.chunk.js",
+    "static/media/hero.jpg": "/netflix/static/media/hero.5ff0dad2637d83a36662.jpg",
+    "index.html": "/netflix/index.html",
+    "main.ae05e6a1.css.map": "/netflix/static/css/main.ae05e6a1.css.map",
+    "main.72899f69.js.map": "/netflix/static/js/main.72899f69.js.map",
+    "787.440c4889.chunk.js.map": "/netflix/static/js/787.440c4889.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce56bcfd.css",
-    "static/js/main.391ea121.js"
+    "static/css/main.ae05e6a1.css",
+    "static/js/main.72899f69.js"
   ]
 }
