@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Link } from "react-router-dom";
+import path from "../../utils/path";
 
 const Login = () => {
   const [viewPrivacyPolicy, setViewPrivacyPolicy] = useState(false);
@@ -11,7 +12,7 @@ const Login = () => {
   return (
     <div className="flex flex-col bg-hero h-full bg-black sm:bg-[rgba(0,0,0,.5)] bg-blend-overlay overflow-y-auto scrollbar-thin scrollbar-thumb-gray-900">
       <img
-        src="../public/assets/images/logo.png"
+        src={`${path.public}/assets/images/logo.png`}
         alt=""
         className="h-6 sm:h-11 self-start m-5 sm:my-6 sm:m
         x-10"

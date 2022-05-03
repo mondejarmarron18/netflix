@@ -12,7 +12,7 @@ const Hero: FC<IProps> = ({ className }) => {
 
   const handleOnSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    navigate("dashboard");
+    navigate("/dashboard");
   };
 
   return (

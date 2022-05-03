@@ -1,4 +1,4 @@
-import { FC, LegacyRef } from "react";
+import { FC } from "react";
 import { MdSearch, MdHome, MdCalendarToday, MdTv, MdAdd } from "react-icons/md";
 import { GiClapperboard } from "react-icons/gi";
 import { NavLink } from "react-router-dom";

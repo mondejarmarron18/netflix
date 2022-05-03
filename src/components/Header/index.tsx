@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import path from "../../utils/path";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -6,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex h-fit w-full items-center flex-row justify-between px-12 py-7">
       <img
-        src="/assets/images/logo.png"
+        src={`${path.public}/assets/images/logo.png`}
         alt="Logo"
         className="flex h-6 sm:h-7 md:h-9"
       />

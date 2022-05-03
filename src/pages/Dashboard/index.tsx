@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MdPlayArrow } from "react-icons/md";
 import movieData from "../../data/movies";
+import path from "../../utils/path";
 
 interface IMovie {
   id: number;
@@ -26,7 +27,8 @@ const Dashboard = () => {
         <div className="flex flex-col gap-1 justify-center p-4 sm:p-10 max-w-[550px] flex-1">
           <div className="flex gap-2 items-center">
             <img
-              src="../public/assets/images/icon.png"
+              src={`
+            ${path.public}/assets/images/icon.png`}
               alt="Logo"
               className="h-5"
             />

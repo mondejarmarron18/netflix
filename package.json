@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "node": "v16.15.0",
-  "homepage": "https://mondejarmarron18.github.io/netflix",
+  "homepage": "https://movies.marrontech.me",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.14.1",
