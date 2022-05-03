@@ -1,7 +1,7 @@
 const movies = [
   {
     id: 1,
-    title: "12 Reasons Why",
+    title: "13 Reasons Why",
     url: "https://m.media-amazon.com/images/M/MV5BNWI5ZmNhYjEtZGEyZi00MzY2LTg2YWItNTM0MWVlYzQyZTA2XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
   },
   {

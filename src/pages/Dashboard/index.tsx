@@ -58,7 +58,7 @@ const Dashboard = () => {
           <div className="text-gray-200 font-medium tracking-wide">
             Trending Now
           </div>
-          <div className="flex gap-2 w-full overflow-x-auto scrollbar-thin scrollbar-thumb-gray-900">
+          <div className="flex gap-2 w-full overflow-x-auto scrollbar-thin hover:scrollbar-thumb-gray-900">
             {movies.map((_) => (
               <img
                 key={_.id}
