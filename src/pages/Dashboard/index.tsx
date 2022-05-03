@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { MdPlayArrow } from "react-icons/md";
 import movieData from "../../data/movies";
 
@@ -11,6 +11,7 @@ interface IMovie {
 const ISMovie: IMovie = { id: 0, title: "", url: "" };
 
 const Dashboard = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [movies, setMovies] = useState<IMovie[]>(movieData);
   const [movie, setMovie] = useState(movieData[0] || ISMovie);
 
@@ -24,7 +25,11 @@ const Dashboard = () => {
       <div className="flex flex-col gap-1 justify-center relative z-10 h-full w-full  bg-gradient-to-r from-[#000000] to-[#00000000]">
         <div className="flex flex-col gap-1 justify-center p-4 sm:p-10 max-w-[550px] flex-1">
           <div className="flex gap-2 items-center">
-            <img src="/assets/images/icon.png" alt="Logo" className="h-5" />
+            <img
+              src="../public/assets/images/icon.png"
+              alt="Logo"
+              className="h-5"
+            />
             <span className="text-[.7rem] font-black text-gray-400 tracking-[.2rem]">
               SERIES
             </span>
