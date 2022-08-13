@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root,
+body {
+  height: 100vh;
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+}
